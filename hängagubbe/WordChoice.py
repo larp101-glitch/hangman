@@ -12,6 +12,6 @@ def Word():
 
 
 def AdWord():
-    WordAd = input("Ad Word to word pool?(if not: ENTER)\n")
+    WordAd = input("Add word to word pool?(if not: ENTER)\n")
     os.system(f"echo {WordAd} >> GlobalWord.txt")
 
